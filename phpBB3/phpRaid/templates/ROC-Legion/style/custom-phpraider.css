@@ -1,0 +1,2066 @@
+/* -------------------------------------
+*  Custom template
+* -------------------------------------
+* creator = Faldan@voljin
+* Date = 22/05/2017
+* -------------------------------------*/
+/* Background image
+* -------------------------------------*/
+/* custom-font.css */
+@font-face {
+  font-family: 'wow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/semplicita.woff) format('woff');
+}
+@font-face {
+  font-family: 'blizzard';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/blizzard.woff) format('woff');
+}
+/* custom-material-icone.css */
+.material-icons.md-12 {
+	font-size: 0.75rem;
+}
+.material-icons.md-13 {
+	font-size: 0.8125rem;
+}
+.material-icons.md-14 {
+	font-size: 0.875rem;
+}
+.material-icons.md-15 {
+	font-size: 0.9375rem;
+}
+.material-icons.md-16 {
+	font-size: 1rem;
+}
+.material-icons.md-18 {
+	font-size: 1.125rem;
+}
+.material-icons.md-20 {
+	font-size: 1.25rem;
+}
+.material-icons.md-24 {
+	font-size: 1.5rem;
+}
+.material-icons.md-30 {
+	font-size: 1.875rem;
+}
+.material-icons.md-36 {
+	font-size: 2.25rem;
+}
+.material-icons.md-48 {
+	font-size: 3rem;
+}
+.material-icons.md-64 {
+	font-size: 4rem;
+}
+.material-icons.md-128 {
+	font-size: 8rem;
+}
+.btn--table-edit .material-icons {
+	vertical-align: 0px;
+}
+#sectionPermissionsDetails .btn--table-info .material-icons {
+	vertical-align: -1px;
+}
+.btn--sectionHeader--action .material-icons,
+.icone--header .material-icons,
+.btn--raidSignup .material-icons,
+.btn--raidCharacter .material-icons,
+.btn--raidComment .material-icons,
+.btn--raidEdit .material-icons,
+.table-section thead th .material-icons,
+.btn---table-header .material-icons,
+.raid .btn .material-icons,
+.raid-resp .btn .material-icons,
+table.table-section .btn--table-header .material-icons {
+	vertical-align: -2px;
+}
+.raid .btn.btn--table-info .material-icons,
+.raid-resp .btn.btn--table-info .material-icons {
+	vertical-align: -3px;
+}
+.menu .nav-chip--action .material-icons,
+.menuSub a.dropdown-toggle .material-icons,
+.navbar.navbar-resp .menuSub a.dropdown-toggle .material-icons,
+.menuResp .nav-chip--action .material-icons,
+.menuResp a.nav-link .material-icons,
+.menuSubResp .card a.nav-item .material-icons.md-expand,
+.navbar.navbar-resp .material-icons {
+	vertical-align: -4px;
+}
+.menu a.nav-link .material-icons {
+	margin-top: 0;
+	vertical-align: -4px;
+}
+/* custom-common.css */
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+	box-sizing: border-box;
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent
+}
+body {
+    margin: 0;
+    background-color: #0f2a48;
+    font-size: 1rem;
+	color: rgba(255,255,255,0.7);
+}
+*,:after,:before {
+    box-sizing: inherit
+}
+a {
+    background-color: transparent;
+	text-decoration: none;
+	color: rgba(33,150,243,0.7);
+}
+a:hover {
+	color: rgba(33,150,243,1);
+	text-decoration: none;
+}
+a:focus {
+    color: rgba(255,255,255,0.7);
+	text-decoration: none;
+}
+p {
+	margin-bottom: 0;
+}
+ul {
+    line-height: 1rem;
+}
+select[multiple] {
+    overflow-y: scroll;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.container-fluid {
+	padding-left: 0.0625rem;
+    padding-right: 0.0625rem;
+}
+.container--footer {
+	color: rgba(255,255,255,0.7);
+	font-size: 0.75rem;
+	line-height: 1rem;
+	margin-bottom: 1rem;
+}
+#sectionProfil,#sectionAnnouncement,#sectionAnnoucementsForm,#sectionCharacters,#sectionCharactersForm,#sectionHistory,#sectionRaids,#sectionRoster,#sectionMembers,#sectionRaidsForm,#sectionRaidsForm,#sectionConfiguration,#sectionConfigurationGame,#sectionAttributes,#sectionAttributesForm,#sectionDefinitions,#sectionDefinitionsRaceForm,#sectionDefinitionsClassForm,#sectionSpecialisation,#sectionSpecialisationForm,#sectionGenders,#sectionGendersForm,#sectionGroups,#sectionGroupsForm,#sectionGroupsDetails,#sectionGuilds,#sectionGuildsForm,#sectionPermissions,#sectionPermissionsDetails,#sectionRoles,#sectionRolesForm,#sectionTemplates,#sectionRSS,#calendar,#calendarResp,#sectionView,#sectionPassword,#sectionPasswordSent,#sectionLinks,#sectionLinksForm {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+#announcementPlugin,#sectionRaidsOld,#sectionDefinitionsClass {
+	margin-top: 1rem;
+}
+@media (max-width: 991px) {
+	#sectionProfil,#sectionAnnouncement,#sectionAnnoucementsForm,#sectionCharacters,#sectionCharactersForm,#sectionHistory,#sectionRaids,#sectionRoster,#sectionMembers,#sectionRaidsForm,#sectionRaidsForm,#sectionConfiguration,#sectionConfigurationGame,#sectionAttributes,#sectionAttributesForm,#sectionDefinitions,#sectionDefinitionsRaceForm,#sectionDefinitionsClassForm,#sectionSpecialisation,#sectionSpecialisationForm,#sectionGenders,#sectionGendersForm,#sectionGroups,#sectionGroupsForm,#sectionGroupsDetails,#sectionGuilds,#sectionGuildsForm,#sectionPermissions,#sectionPermissionsDetails,#sectionRoles,#sectionRolesForm,#sectionTemplates,#sectionRSS,#calendar,#calendarResp,#sectionView,#sectionPassword,#sectionPasswordSent,#announcementPlugin,#sectionRaidsOld,#sectionDefinitionsClass {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top:1px;
+	}
+}
+#menu-resp {
+  padding-bottom: 2px;
+  margin-bottom: 40px;
+}
+#footer {
+   padding-top: 1rem;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.div-shadow {
+	box-shadow: 0 0 0 1px rgba(0,0,0,1);
+}
+.div-shadow--bottom {
+	box-shadow: 0 1px 0 1px rgba(0,0,0,1);
+}
+.div-shadow--banner {
+	margin-top: 1px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,1);
+}
+.div-left {
+	float: left;
+}
+.div-right {
+	float: right;
+}
+.div-bordered {
+	border: 1px solid rgba(255,255,255,0.15);
+}
+/* custom-pickadate.css */
+.picker__box {
+	background-color:rgba(32,38,54,1);
+	border-color: rgba(33,150,243,1);
+	border-radius: 0;
+	padding:0;
+}
+.picker__header {
+	margin-top: 0;
+	padding: 2px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.1)
+}
+.picker__table {
+	font-size: 1rem;
+}
+.picker__month,
+.picker__year {
+	color: rgba(255,255,255,1);
+}
+.picker__nav--prev:before,
+.picker__nav--next:before {
+	border-right-color: rgba(33,150,243,0.7);
+}
+.picker__nav--next:before {
+  	border-left-color: rgba(33,150,243,0.7);
+}
+.picker__nav--prev:hover:before,
+.picker__nav--next:hover:before {
+  	border-right-color: rgba(33,150,243,1);
+}
+.picker__nav--next:hover:before {
+  	border-left-color: rgba(33,150,243,1);
+}
+.picker__nav--prev:hover,
+.picker__nav--next:hover {
+  	color: rgba(255,255,255,1);
+  	background: transparent;
+}
+.picker__weekday {
+	margin: 1px;
+	text-align: center;
+	font-size: 15px;
+  	color: rgba(255,255,255,0.7);
+}
+.picker__day {
+  	margin: 1px;
+  	border-color: rgba(255,255,255,0.1);
+}
+.picker__day--today:before {
+  	border-top-color: rgba(33,150,243,1);
+  	border-left-color: transparent;
+}
+.picker__day--disabled:before {
+  	border-top-color: rgba(0,0,0,0.3);
+}
+.picker__day--outfocus {
+  	color: rgba(255,255,255,0.3);
+}
+.picker__day--infocus {
+	color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0.1);
+}
+.picker__day--infocus:hover,
+.picker__day--outfocus:hover {
+  	color: rgba(255,255,255,1);
+  	background: rgba(33,150,243,0.3);
+}
+.picker__day--highlighted {
+  	border-color: rgba(33,150,243,1);
+}
+.picker__day--highlighted:hover,
+.picker--focused .picker__day--highlighted {
+  	color: rgba(255,255,255,1);
+  	background: rgba(33,150,243,0.5);
+}
+.picker__day--selected,
+.picker__day--selected:hover,
+.picker--focused .picker__day--selected {
+  	background: rgba(33,150,243,0.3);
+  	color: rgba(255,255,255,1);
+}
+.picker__day--disabled,
+.picker__day--disabled:hover,
+.picker--focused .picker__day--disabled {
+  	background: #f5f5f5;
+  	border-color: #f5f5f5;
+  	color: #dddddd;
+  	cursor: default;
+}
+.picker__day--highlighted.picker__day--disabled,
+.picker__day--highlighted.picker__day--disabled:hover {
+  	background: #bbbbbb;
+}
+/* custom-popover.css */
+.popover { 
+	background-color: rgba(38,52,69,1);
+	border: 1px solid rgba(33,150,243,1);
+	border-radius: 0;
+	color: rgba(255,255,255,1);
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0;
+	max-width: 250px;
+	min-width: 175px;
+}
+@media (min-width: 576px) {
+	.popover {
+		max-width: 300px;
+	}
+}
+.popover.popover-top::before, .popover.bs-tether-element-attached-bottom::before {
+	border-top-color: rgba(33,150,243,1);
+}
+.popover.popover-top::after, .popover.bs-tether-element-attached-bottom::after {
+	border-top-color: rgba(38,52,69,1);
+}
+.popover.popover-right::before, .popover.bs-tether-element-attached-left::before {
+	border-right-color: rgba(33,150,243,1);
+}
+.popover.popover-right::after, .popover.bs-tether-element-attached-left::after  {
+	border-right-color: rgba(38,52,69,1);
+}
+.popover.popover-left::before, .popover.bs-tether-element-attached-right::before {
+	border-left-color: rgba(33,150,243,1);
+}
+.popover.popover-left::after, .popover.bs-tether-element-attached-right::after {
+	border-left-color: rgba(38,52,69,1);
+}
+.popover-title {
+	background-color: transparent;
+	border-bottom-width: 0;
+	border-radius: 0;
+	color: rgba(244,67,54,1);
+	font-size: 0.875rem;
+	text-align: center;
+	padding: 0.25rem 0.25rem;
+}
+.popover-content {
+	font-size: 0.875rem;
+	font-weight: 300;
+	line-height: 0.875rem;
+	padding: 0rem;
+}
+.div--tooltip {
+	padding: 0.25rem 0.25rem;
+}
+.popover-content .sectionCard {
+	box-shadow: none;
+	border-width: 0;
+	margin: 0;
+}
+.popover-content .sectionCard img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.popover-content .sectionCard--header {
+	background-color: rgba(32,38,54,1);
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	margin: 0;
+	padding: 0.25rem 0.5rem;
+}
+.popover-content .sectionCard--header .div-title {
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 0.875rem;
+}
+.popover-content .sectionCard--content {
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.25rem 0.25rem;
+}
+.popover-content .sectionCard-content .content--divider {
+	margin: 0.125rem 0;
+}
+.popover-content .sectionCard .inputCard--LabelDetails {
+	color: rgba(255,255,255,1);
+	font-weight:400;	
+}
+.popover-content .sectionCard .inputCard--LabelDetails--value {
+	color: rgba(255,255,255,1);
+	font-weight:300;	
+}
+.img--spe {
+	height: 32px;
+	width: auto;
+}
+/* custom-tooltip.css */
+.tooltip.tooltip-right .tooltip-inner::before, .tooltip.bs-tether-element-attached-left .tooltip-inner::before  {
+  border-right-color: rgba(33,150,243,1);
+}
+.tooltip-inner {
+  background-color: rgba(38,52,69,1);
+  border: 1px solid rgba(33,150,243,1);
+  border-radius: 0;
+  padding: 0.125rem;
+}
+.img--spe {
+	height: 28px;
+	width: auto;
+}
+.tooltip--spe {
+	cursor: help;
+}
+/* custom-modal.css */
+body.modal-open {
+	overflow: hidden;
+}
+@media (min-width: 992px) {
+	body.modal-open {
+		padding-right: 17px !important;
+	}
+}
+.modal.fade .modal-dialog.raid-modal-dialog {
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: -webkit-transform .3s ease;
+	-o-transition: -o-transform .3s ease;
+	transition: transform .3s ease;
+	transition: transform .3s ease, -webkit-transform .3s ease, -o-transform .3s ease;
+	-webkit-transform: translate(125%, 25%);
+	  -ms-transform: translate(125%, 25%);
+	   -o-transform: translate(125%, 25%);
+		  transform: translate(125%, 25%);
+}
+.modal.show .modal-dialog.raid-modal-dialog {
+	-webkit-transform: translate(0, 25%);
+	  -ms-transform: translate(0, 25%);
+	   -o-transform: translate(0, 25%);
+		  transform: translate(0, 25%);
+}
+#modal--menu .modal-sm {
+	max-width: 250px;
+  }
+.modal-content.raid-modal-content {
+	background-color: rgba(38,52,69,1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,1);
+	border-radius: 0;
+}
+.modal-header.raid-modal-header {
+	background-color: rgba(32,38,54,1);
+	box-sizing: content-box;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	border-radius: 0;
+	color: rgba(255,255,255,0.7);
+	text-align: center;
+	padding: 0.25rem 0.25rem;
+}
+.modal-title--center {
+	position: absolute;
+	width: 100%;
+	top: 0.25rem;
+	left: 0;
+}
+.modal-close {
+	width: 100%;
+}
+.raid-modal-header h4 {
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+.raid-modal-header .raid-btn-close {
+	color: rgba(255,255,255,1);
+	text-shadow: none;
+	margin-top: 0;
+}
+.raid-modal-body {
+	border-radius: 0;
+	color: rgba(255,255,255,0.7);
+    font-size: .8125rem;
+	padding: 0.5rem 0.5rem;
+}
+.modal-footer.raid-modal-footer {
+	background-color: rgba(32,38,54,1);
+	box-sizing: content-box;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	border-radius: 0;
+	color: rgba(255,255,255,0.7);
+	font-size: 1rem;
+	line-height: 1.25rem;
+	text-align: center;
+	padding: 0.25rem 0.25rem;
+}
+/* custom-sectionCard.css */
+.sectionCard {
+	background-color: transparent;
+	box-shadow: 0 0 0 1px rgba(0,0,0,1);
+	border-radius: 0;
+	border: 1px solid rgba(255,255,255,0.15);
+	color: rgba(255,255,255,0.7);
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1rem;
+	margin: 0;
+}
+.sectionCard--header {
+	background-color: rgba(0,0,0,0.2);
+	box-sizing: border-box;
+	border-radius: 0;
+	border: none;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	font-size: 0.9375rem;
+	padding: 0.3125rem 20px;
+	margin: 0;
+}
+.sectionCard--header:first-child {
+	border-top: none;
+    border-radius: 0;
+}
+.sectionCard--header .header--title {
+	font-weight: 500;
+	padding: 0.125rem 0;
+}
+.sectionCard--header.header--announce {
+	padding: 0.125rem 20px;
+}
+.sectionCard--header.header--announce .header--title {
+	padding: 0.25rem 0;
+}
+.sectionCard--header.header--raid {
+	border-top: 1px solid rgba(255,255,255,0.2);
+	padding: 0.125rem 20px;
+}
+.sectionCard--header.header--raid .header--title {
+	padding: 0.25rem 0;
+}
+.sectionCard--header.content--table {
+	border-bottom-width: 0;
+}
+.sectionCard--header.comment--header .material-icons {
+	vertical-align: -4px;
+}
+.sectionCard--content {
+	padding: 0.5rem 20px;
+}
+.sectionCard--content.content--table {
+	padding: 0;
+}
+.sectionCard--content.content--raid {
+	padding: 0.25rem 0.25rem;
+}
+.sectionCard--content .content--header {
+    color: rgba(255,255,255,1);
+	font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 0 0 0.5rem 0;
+	margin: 0;
+	display: block;
+}
+.sectionCard--content.sectionCard--raidInfo .content--header {
+	font-size: 1.5rem;
+	line-height: 1.5rem
+}
+.sectionCard--content.sectionCard--raidComment .comment--char {
+	color: rgba(255,255,255,1);
+	font-weight: 500;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.sectionCard--content .content--description {
+    padding: 0;
+	margin: 0;
+	display: block;
+}
+.sectionCard--content .content--rsslink {
+	word-wrap: break-word;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.sectionCard--content .content--divider {
+	border-top: 1px solid rgba(255,255,255,0.2);
+	margin: 0.5rem 0 1rem 0;
+	height: 1px;
+	width: 100%;
+}
+.sectionCard--content .content--footer {
+	color: rgba(255,255,255,0.5);
+	font-size: 0.8125rem;
+	display: block;
+	padding-top: 0.125rem;
+}
+.sectionCard--content .content--footer::before {
+  content: "\2014 \00A0";
+}
+.sectionCard--footer {
+	background-color: rgba(0,0,0,0.2);
+	box-sizing: border-box;
+	border-radius: 0;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 0.3125rem 20px;
+	margin: 0;
+}
+.sectionCard--footer:last-child {
+	border-radius: 0;
+	border-bottom-width: 0;
+}
+.sectionCard--footer.content--table {
+	border-top-width: 0;
+	border-bottom-width: 0;
+}
+.div--raidSignup {
+	padding: 0 0.125rem;
+}
+.div--raidSignup:first-child,
+.div--raidSignup:last-child {
+	border: 1px solid rgba(0,0,0,0.4);
+}
+.div--raidSignup {
+	border-top: 1px solid rgba(0,0,0,0.4);
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+@media (max-width: 768px) {
+	.div--raidSignup  {
+		border-left: 1px solid rgba(0,0,0,0.4);
+		border-right: 1px solid rgba(0,0,0,0.4);
+		border-bottom-color: transparent;
+		border-top-color: transparent;
+	}
+	.div--raidSignup:first-child {
+		border-bottom-color: transparent;
+	}
+	.div--raidSignup:last-child {
+		border-top-color: transparent;
+	}
+}
+.raidSignup--title {
+	background: linear-gradient(to right,rgba(33,150,243,0),rgba(33,150,243,0.5),rgba(33,150,243,0));
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.7);
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	text-align: center;
+	margin-bottom: 0.25rem;
+	height: 2rem;
+}
+.div--raidCharacter {
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	margin: 0.125rem 0;
+	height: 1.75rem;
+}
+.div--raidCharacter:last-child {
+	margin-bottom: 0.25rem;
+}
+.div--raidCharacter:hover {
+	outline: 1px solid rgba(144,202,249,1);
+}
+.raidCharacter--class {
+	background-color: rgba(0,0,0,0.6);
+	box-sizing: content-box;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	padding: 0 0.125rem;
+	width: 1.75rem;
+	float: left;
+}
+.raidCharacter--class .img--class {
+	height:auto;
+	width:100%;
+}
+.raidCharacter--name {
+	color: rgba(0,0,0,0.7);
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 0.875rem;
+	padding-left: 0.25rem;
+	float: left;
+}
+.raidCharacter--name span.signup--time{
+	color: rgba(0,0,0,0.5);
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: 0.75rem;
+}
+.raidCharacter--tool {
+	background-color: rgba(0,0,0,0.2);
+	padding: 0.1875rem 0.25rem 0.1875rem 0.25rem;
+	float: right;
+}
+.div--raidCharacter:hover .raidCharacter--tool {
+	background-color: rgba(0,0,0,0.6);
+	padding: 0.1875rem 0.25rem 0.1875rem 0.25rem;
+	float: right;
+}
+.raidCharacter--tool,
+.div--raidCharacter:hover .raidCharacter--tool {
+	transition: background-color 0.3s ease-out;
+}
+/* custom-table.css */
+.table-section {
+	border:	none;
+	border-color: transparent;
+	color: rgba(255,255,255,1);
+	font-size: 0.875rem;
+	font-weight: 300;
+	line-height: 1rem;
+	margin-bottom: 0;
+	width:100%;
+}
+.table-section thead th,
+.table-section tbody td {
+	border: 1px solid rgba(255,255,255,0.1);
+	padding: 0.125rem;
+}
+.table-section thead th:first-child,
+.table-section tbody td:first-child {
+	border-left-color: transparent; 	
+}
+.table-section thead th:last-child,
+.table-section tbody td:last-child {
+	border-right-color: transparent; 	
+}
+.table-section thead tr .tr-w-80 {
+	width: 80%;
+}
+.table-section thead tr {
+	background-color: rgba(0,0,0,0.2);
+}
+.table-section thead th {
+	color: rgba(33,150,243,1);
+	font-weight: 500;
+	white-space: nowrap;
+}
+.table-section thead th a {
+	text-decoration: none;
+}
+.table-section thead th a,
+.table-section thead th a:hover {
+	transition: color 0.3s ease-out;
+}
+.table-section tbody tr {
+	background-color: rgba(0,0,0,0.05);
+	outline: none;
+}
+.table-section tbody tr:nth-of-type(odd) {
+	background-color: transparent;
+}
+.table-section tbody tr:hover {
+	border: 1px solid rgba(255,255,255,0.3);
+	background-color: rgba(66,66,66,0.3);
+	outline: 1px solid rgba(255,255,255,0.3);
+}
+.table-section tbody tr,
+.table-section tbody tr:hover {
+	transition: background-color 0.5s ease-out;
+}
+.table-section tbody td {
+	padding-left: 0.25rem;
+}
+.table-section tbody td a,
+.table-section tbody td:first-child {
+	font-weight: 400;
+}
+.table-section thead tr.tr--paginationCount th {
+	border-top-width: 0;
+	color: rgba(255,255,255,0.7);
+	font-size: 0.625rem;
+	font-weight: 400;
+	text-align: center;
+}
+.table-section thead tr.tr--pagination th {
+	border-bottom-width: 0;
+}
+.table-section thead tr ul.pagination{
+	margin: 0.25rem;
+}
+.page-item .page-link-custom,
+.page-item .page-link-custom:hover,
+.page-item.active .page-link-custom,
+.page-item.active .page-link-custom:hover {
+	transition: background-color 0.3s ease-out;
+}
+.page-item .page-link-custom {
+	background-color: transparent;
+	box-sizing: border-box;	
+	border: 1px solid rgba(33,150,243,0.7);
+	color: rgba(33,150,243,0.7);
+	font-size: 0.875rem;
+	line-height: 1rem;
+	padding: 0 0.375rem;
+	margin: 0 0.0625rem;
+}
+.page-item .page-link-custom .material-icons {
+	vertical-align: -2px;
+}
+.page-item .page-link-custom:hover {
+	background-color: rgba(33,150,243,1);
+	border-color: rgba(33,150,243,0.7);
+	color: rgba(255,255,255,1);
+}
+.page-item.active .page-link-custom {
+	background-color: rgba(33,150,243,1);
+	border-color: rgba(33,150,243,0.7);
+	color: rgba(255,255,255,1);
+}
+.page-item.active .page-link-custom:hover {
+	background-color: rgba(33,150,243,1);
+	border-color: rgba(255,255,255,0.7);
+	color: rgba(255,255,255,1);
+}
+.page-item.disabled .page-link-custom {
+	background-color: transparent;
+	border: 1px solid rgba(33,150,243,0.3);
+	color: rgba(33,150,243,0.3);
+}
+.table-section thead tr .page-link-custom .material-icons {
+	padding-bottom: 0;
+}
+/* Calendar */
+.section--calendar {
+	background-color: transparent;
+	color: rgba(255,255,255,0.7);
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1rem;
+}
+.calendar--header {
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.15);
+	border-bottom-width: 0;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0.25rem;
+}
+.calendar--header .material-icons {
+	vertical-align: -6px;
+}
+.calendar--header .form-group {
+	margin-right: 0.25rem;
+}
+.calendar--footer {
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.15);
+	border-top-width: 0;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0.25rem;
+}
+.calendar--weekday {
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.15);
+	border-top-width: 0;	
+	border-bottom-width: 0;
+	padding-top: 0.25rem;
+}
+.calendar {
+ 		display:flex;
+ 		flex-wrap: wrap;
+ 		justify-content:flex-start;
+ 		align-content: space-around;
+		width: 100%;
+}
+.dayContainer {
+	display: table;
+	border: 1px solid rgba(255,255,255,0.15);
+	box-sizing: border-box;
+	border-collapse: collapse;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    width: calc(100%/7);
+    position: relative;	
+	box-shadow: rgba(0,0,0,1) 0px 0px 1px 0px inset;
+}
+.dayContainer.calendar--title {
+	border: none;
+	font-size: 0.9375rem;
+	font-weight: 500;
+	line-height: 1rem;
+	white-space: nowrap;
+	padding: 0.125rem;
+	box-shadow: none;
+}
+.dayContainer.nomonthday,
+.dayContainer-resp.nomonthday {
+	background-color: rgba(0,0,0,0.45);
+}
+.dayContainer.saturday,
+.dayContainer.sunday,
+.dayContainer-resp.saturday,
+.dayContainer-resp.sunday {
+	background-color: rgba(0,0,0,0.3);
+}
+.dayContainer.today,
+.dayContainer-resp.today {
+	background-color: rgba(33,150,243,0.1);
+	outline: 1px solid rgba(33,150,243,0.7);
+}
+.dayContainer.monthday:hover,
+.dayContainer.saturday:hover,
+.dayContainer.sunday:hover,
+.dayContainer.today:hover,
+.dayContainer-resp.monthday:hover,
+.dayContainer-resp.saturday:hover,
+.dayContainer-resp.sunday:hover,
+.dayContainer-resp.today:hover {
+	background-color: rgba(66,66,66,0.3);
+	outline: 1px solid rgba(255,255,255,0.3);
+}
+.dayContainer.monthday,
+.dayContainer.saturday,
+.dayContainer.sunday,
+.dayContainer.today,
+.dayContainer.monthday:hover,
+.dayContainer.saturday:hover,
+.dayContainer.sunday:hover,
+.dayContainer.today:hover,
+.dayContainer-resp.monthday,
+.dayContainer-resp.saturday,
+.dayContainer-resp.sunday,
+.dayContainer-resp.today,
+.dayContainer-resp.monthday:hover,
+.dayContainer-resp.saturday:hover,
+.dayContainer-resp.sunday:hover,
+.dayContainer-resp.today:hover {
+ 	transition: background-color 0.3s ease-out;
+}
+.col-3.col-resp {
+	padding: 1px;
+}
+.col-9.col-resp {
+	padding: 1px 0;
+}
+.dayContainer-resp {
+	display: table;
+	border: 1px solid rgba(255,255,255,0.15);
+	box-sizing: border-box;
+	border-collapse: collapse;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    width: calc(100%/1);
+    position: relative;	
+	box-shadow: rgba(0,0,0,1) 0px 0px 1px 0px inset;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	.dayContainer-resp  {
+		width: calc(100%/2);
+	}
+}
+@media (min-width: 768px) {
+	.dayContainer-resp  {
+		width: calc(100%/2);
+	}
+}
+.day {
+    padding-bottom: 100%;
+}
+.raidContainer {
+	position: absolute;
+	padding: 1px;
+	height: 100%;
+	width: 100%;
+    top:0;
+	z-index: 50;
+}
+.raidContainer-resp {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.raidContainer .raid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.raidContainer-resp .raid-resp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	top:0;
+}
+.raid .raid--date,
+.raid-resp .raid--dateday {
+	padding-left: 0.25rem;
+	padding-top: 0.125rem;
+	position: absolute;
+	z-index: 200;
+}
+.raid .raid--img,
+.raid-resp .raid--img {
+	outline: 1px solid rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+}
+.raid .raid--img img,
+.raid-resp .raid--img img {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-out;
+}
+.raidContainer:hover .raid .raid--img img,
+.dayContainer-resp:hover .raid-resp .raid--img img {
+	opacity: 0.7;
+	transition: opacity 0.3s ease-out;
+}
+.raid .raid--info,
+.raid-resp .raid--info {
+	line-height: 1.125rem;
+	padding-top: 0.125rem;
+	top: 0;
+    right: 0;
+    position: absolute;
+	z-index:200;
+}
+.raid-resp .raid--info {
+	width: 100%;
+}
+.raid .raid--option,
+.raid-resp .raid--option {
+	background-color: rgba(0,0,0,0.4);
+	padding: 0.125rem 0;
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+	z-index:200;
+}
+.raid .div-right,
+.raid-resp .div-right  {
+	padding-right: 0.125rem;
+}
+.raid-resp .div-left  {
+	padding-left: 0.125rem;
+}
+/* custom-button.css */
+.btn {
+	cursor: pointer;
+}
+.btn--input,
+.btn--input:hover,
+.btn--sectionFooter,
+.btn--sectionFooter:hover,
+.btn--raidCharacter,
+.btn--raidCharacter:hover,
+.btn--raidComment,
+.btn--raidComment:hover,
+.btn--raidEdit,
+.btn--raidEdit:hover,
+.btn--raidSignup,
+.btn--raidSignup:hover,
+.btn--sectionHeader--action,
+.btn--sectionHeader--action:hover,
+.btn--sectionFooter--action,
+.btn--sectionFooter--action:hover,
+.btn--table-edit,
+.btn--table-edit:hover
+.btn--table-info,
+.btn--table-info:hover {
+	transition: background-color 0.3s ease-out;
+}
+.btn--outline,
+.btn--outline:hover {
+	transition: border-color 0.3s ease-out;
+	transition: color 0.3s ease-out;
+}
+.btn--table-header,
+.btn--table-header:hover {
+	transition: color 0.3s ease-out;
+}
+.raid .raid--option .btn,
+.raid-resp .raid--option .btn {
+	font-size: 0.875rem;
+}
+.raid .raid--info .btn,
+.raid-resp .raid--info .btn {
+	font-size: 1.125rem;
+}
+.btn--input {
+	box-sizing: border-box;	
+	border-radius: 0.0625rem;
+	padding: 0.25rem 0.25rem;
+	margin-left: 0.25rem;
+	height: 1.75rem;
+}
+.btn--sectionHeader--action {
+	box-sizing: border-box;	
+	border-radius: 0.0625rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.250rem;	
+	float: right;
+}
+.header--announce .btn--sectionHeader--action {
+	margin: 0.125rem 0;
+}
+.btn--sectionFooter {
+	box-sizing: border-box;	
+	border-radius: 0.0625rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.5rem;
+}
+.btn--sectionFooter--action {
+	box-sizing: border-box;	
+	border-radius: 0.0625rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.250rem;	
+}
+.btn--sectionFooter--action .material-icons {
+	vertical-align: -2px;
+}
+.btn--raidCharacter {
+	box-sizing: border-box;	
+	border-radius: 0.0625rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.125rem;
+	margin-right: 0.25rem;
+}
+.btn--raidComment {
+	box-sizing: border-box;	
+	border-radius: 0.5rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0;
+	margin: 0 0.125rem;
+}
+.btn--raidEdit {
+	box-sizing: border-box;	
+	border-radius: 0.5rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.125rem;
+	margin: 0 0.125rem;
+}
+.btn--raidSignup {
+	box-sizing: border-box;	
+	border-radius: 0.0625rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.125rem;
+}
+.raid .btn--raidSignup,
+.raid-resp .btn--raidSignup {
+	box-sizing: border-box;	
+	border-radius: 0.25rem;
+	line-height: 0.875rem;
+	padding: 0.1875rem;
+	margin-top: 0;
+}
+table.table-section .btn--table-edit {
+	box-sizing: border-box;	
+	border-radius: 0;
+	line-height: 0.875rem;
+	padding: 0.1875rem;
+	margin-top: 0.0625rem;
+}
+.raid .btn--table-edit,
+.raid-resp .btn--table-edit {
+	box-sizing: border-box;	
+	border-radius: 0.125rem;
+	line-height: 0.875rem;
+	padding: 0.1875rem;
+	margin-top: 0;
+}
+table.table-section .btn--table-header {
+	box-sizing: border-box;	
+    border-radius: 0.25rem;
+	border-width: 0;
+	line-height:1.25rem;
+	padding: 0 0.125rem;
+	margin-bottom: 0.0625rem;
+}
+.form-group-row .btn--table-info {
+	box-sizing: border-box;	
+	border-radius: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0;
+}
+.form-group-row .btn--table-info {
+	margin:0.375rem 0;
+}
+.raid .btn--table-info,
+.raid-resp .btn--table-info {
+	box-sizing: border-box;	
+	border-radius: 1.125rem;
+	line-height: 1.125rem;
+	padding: 0;
+}
+.btn--hide,
+.btn--hide:hover {
+	opacity: 0;
+	cursor: default;
+}
+.btn--bg, 
+a.btn--bg:not([href]):not([tabindex]) {
+	background-color: rgba(33,150,243,0.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.7);
+}
+.btn--bg:hover,
+a.btn--bg:not([href]):not([tabindex]):hover {
+	background-color: rgba(33,150,243,1);
+	color: rgba(255,255,255,1);
+}
+.div--fileUpload:hover .btn--bg {
+	background-color: rgba(33,150,243,1);
+	color: rgba(255,255,255,1);
+}
+.btn--bg-sort {
+	background-color: transparent;
+	color: rgba(255,255,255,0.7);
+}
+.btn--bg-sort:hover {
+	background-color: transparent;
+	color: rgba(33,150,243,1);
+}
+.btn--bg-delete {
+	background-color: rgba(244,67,54,0.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,7);
+}
+.btn--bg-delete:hover{
+	background-color: rgba(244,67,54,1);
+	color: rgba(255,255,255,1);
+}
+.btn--outline {
+	background-color: transparent;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	border: 1px solid rgba(33,150,243,0.5);
+	color: rgba(33,150,243,1);
+}
+.btn--outline:hover{
+	border-color: rgba(33,150,243,1);
+	color: rgba(255,255,243,1);
+}
+.btn--characterApprove {
+	background-color: rgba(0,150,136,0.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.7);
+}
+.btn--characterApprove:hover{
+	background-color: rgba(0,150,136,1);
+	color: rgba(255,255,255,1);
+}
+.btn--characterQueue {
+	background-color: rgba(255,152,0,0.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.7);
+}
+.btn--characterQueue:hover{
+	background-color: rgba(255,152,0,1);
+	color: rgba(255,255,255,1);
+}
+.btn--characterCancel {
+	background-color: rgba(244,67,54,0.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.7);
+}
+.btn--characterCancel:hover{
+	background-color: rgba(244,67,54,1);
+	color: rgba(255,255,255,1);
+}
+.btn--characterComment {
+	background-color: rgba(46,46,46,0.7);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.8);	
+}
+.btn--characterComment:hover{
+	background-color: rgba(46,46,46,1);
+	color: rgba(255,255,255,1);
+}
+.btn--characterCommentExist {
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.2);
+	background-color: rgba(46,46,46,0.7);
+	color: rgba(255,255,255,0.2);
+	animation-duration: 1.5s;
+	animation-name: commentExist;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.btn--characterCommentExist:hover{
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	animation-iteration-count: 0;
+}
+@keyframes commentExist {
+  from {
+    background-color: rgba(46,46,46,0.7);
+	color: rgba(255,255,255,0.2);
+  }
+  to {
+    background-color: rgba(46,46,46,1);
+	color: rgba(255,255,255,1);
+  }
+}
+.icone--header {
+	box-sizing: border-box;	
+	border-radius: 0.875rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.125rem;
+	margin: 0 0.5rem 0 0;
+	cursor: default;
+	float: left;
+}
+.icone--table-signup {
+	box-sizing: border-box;	
+	border-radius: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.1875rem;
+	margin-top: 0.0625rem;
+	cursor: default;
+}
+.icone--raid-signup {
+	box-sizing: border-box;	
+	border-radius: 0.875rem;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	padding: 0.125rem 0.125rem;
+	cursor: default;
+}
+.icone--approved {	
+	background-color: rgba(0,150,136,1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,1);
+}
+.icone--queued {
+	background-color: rgba(255,152,0,1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,1);
+}
+.icone--cancelled {
+	background-color: rgba(244,67,54,1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,1);
+}
+.icone--frozen {
+	background-color: rgba(244,67,54,1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	color: rgba(255,255,255,1);
+}
+.icone--announce {
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+	border: 1px solid rgba(33,150,243,1);
+	color: rgba(33,150,243,1);
+}
+/* custom-input.css */
+.form-group.form-group-row {	
+	margin: 0 0 0.5rem 0;
+}
+.form-group.form-group-rowDetails {	
+	margin: 0;
+	margin-bottom: 0.25rem;
+}
+.inputCard--Label {
+	padding: 0.375rem 0;
+}
+.inputCard--LabelDetails {
+	color: rgba(255,255,255,1);
+	font-weight:500;
+	padding: 0.125rem 0;
+}
+.inputCard--LabelDetails--value {
+	padding: 0.125rem 0;
+}
+select.form-control:not([size]):not([multiple]) {
+	height: 1.75rem;
+}
+select.form-control.inputCard {
+	height: auto;
+}
+textarea.form-control.inputCard {
+	height: auto;
+}
+.inputCard {
+	background-color: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	border-radius: 0;
+	color: rgba(255,255,255,1);
+	font-size: 0.875rem;
+	line-height: 1rem;
+	padding: 0.25rem 0.5rem;
+	height: 1.75rem;
+	transition: background-color 0.5s ease-out;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: rgba(0,0,0,0.5);
+}
+.inputCard:focus {
+	color: rgba(255,255,255,1);
+}
+.inputCard-border {
+	border: 1px solid rgba(33,150,243,0.5);
+	outline: 1px solid rgba(0,0,0,1);
+	outline-offset: 0px;
+}
+.inputCard-border:focus,
+.inputCard-border:hover {
+	background-color: rgba(15,42,72,1);
+	border-color: rgba(33,150,243,1);
+	transition: border-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+.inputCard--formHelp {
+	color: rgba(255,255,255,0.5);
+	line-height: 1.5rem;
+}
+.form-control-feedback {
+    margin-top: 0;
+}
+.div--fileUpload {
+	position: relative;
+}
+.div--fileUpload input.custom-fileUpload {
+	position: absolute;
+	top: 0;
+	left: 0.25rem;
+	opacity: 0;
+	cursor: pointer;
+	font-size: 0;
+	height: 1.75rem;
+	width: 1.90rem;
+	cursor: pointer;
+}
+.custom-checkcheckbox {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 0;
+	color: rgba(255,255,255,1);
+	font-size: 1rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	height: 1.25rem;
+	width: 1.25rem;
+	transition: border-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+.custom-control-input:checked ~ .custom-checkcheckbox,
+.custom-control-input:active ~ .custom-checkcheckbox,
+.custom-control-input:indeterminate ~ .custom-checkcheckbox {
+	background-color: rgba(0,0,0,0.5);
+}
+.custom-control-input:focus ~ .custom-checkcheckbox,
+.custom-control-input:hover ~ .custom-checkcheckbox {
+	background-color: rgba(15,42,72,1);
+	transition: background-color 0.5s ease-out;
+	box-shadow: none;	
+	-webkit-box-shadow: none;
+}
+.custom-checkcheckbox--border {
+	border: 1px solid rgba(33,150,243,0.5);
+	outline: 1px solid rgba(0,0,0,1);
+	outline-offset: 0px;
+}
+.custom-control-input:hover ~ .custom-checkcheckbox--border {
+	background-color: rgba(15,42,72,1);
+	border: 1px solid rgba(33,150,243,1);
+	transition: border-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+.table-section thead tr .custom-checkbox,
+.table-section tbody tr .custom-checkbox {
+	padding: 0;
+	margin: 0;
+}
+.table-section thead tr .custom-checkcheckbox,
+.table-section tbody tr .custom-checkcheckbox {
+	border-radius: 0;
+	margin: auto;
+	height: 1rem;
+	width: 1rem;
+	position: relative;
+	top: 0;
+}
+/* custom-bg-class.css */
+.bg-class--Warrior,.bg-class--Guerrier {
+    background-color: #c69b6d;
+	color: #000;
+}
+.bg-class--Paladin,.bg-class--Paladin {
+    background-color: #f48cba;
+	color: #000;	
+}
+.bg-class--Hunter,.bg-class--Chasseur {
+    background-color: #aad372;
+	color: #000;
+}
+.bg-class--Rogue,.bg-class--Voleur {
+    background-color: #fff468;
+	color: #000;
+}
+.bg-class--Priest,.bg-class--Pretre {
+    background-color: #f0ebe0;
+	color: #000;
+}
+.bg-class--Deathknight,.bg-class--Chevalier {
+    background-color: #c41e3b;
+	color: #000;
+}
+.bg-class--Shaman,.bg-class--Chaman {
+    background-color: #2359ff;
+	color: #000;
+}
+.bg-class--Mage,.bg-class--Mage {
+    background-color: #68ccef;
+	color: #000;
+}
+.bg-class--Warlock,.bg-class--Demoniste {
+    background-color: #9382c9;
+	color: #000;
+}
+.bg-class--Monk,.bg-class--Moine {
+    background-color: #00ffba;
+	color: #000;
+}
+.bg-class--Druid,.bg-class--Druide {
+    background-color: #ff7c0a;
+	color: #000;
+}
+.bg-class--DemonHunter,.bg-class--DemonHunter {
+    background-color: #a330c9;
+	color: #000;
+}
+/* custom-img.css */
+.table-section .img--attribute {
+	width: 1.125rem;
+	height: 1.125rem;
+	border-radius: 0.6rem;
+}
+.table-section .img--class {
+	width: 1.125rem;
+	height: 1.125rem;
+}
+.table-section .img--gender {
+	width: 1.125rem;
+	height: 1.125rem;
+	border-radius: 0.6rem;
+}
+.div--banner {
+	position: relative;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(0,0,0,1);
+	border-bottom: 1px solid rgba(255,255,255,0.15);
+	height: 250px;
+	opacity: 1;
+	padding: 25px 0;
+}
+.div--banner-resp {
+	background-position: 50% 0;
+    background-size: cover;
+	border-bottom: 1px solid rgba(255,255,255,0.15);
+	position: relative;
+	opacity: 1;
+	height: 150px;
+	margin-top: 50px;
+}
+.modal .div--banner-resp {
+	height: 125px;
+	margin-top: 0;
+}
+.banner--title {
+	position: absolute;
+	color: rgba(247,250,229,.3);
+    text-shadow: 0 0 8px rgba(102,170,57,.5);
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 3rem;
+	bottom: 0.25rem;
+	left: 1.5rem;
+	z-index:1;
+}
+.img--guild-logo {
+	display: block;
+	margin: auto;
+	height: 100%;
+	width: auto;
+}
+.modal .img--guild-logo {
+	height: 100px;
+	position: absolute;
+	top: calc(50% - 50px);
+}
+.img--guild-logo-resp {
+	margin: auto;
+	height: 75px;
+	width: auto;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 78px);
+}
+/* custom-menu.css */
+.menu-bar {
+	width: 100%;
+}
+.menu {
+	background: rgba(255,255,255,0.1);
+	border-color: rgba(255,255,255,0.1);
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	font-size: 1rem;
+	line-height: 1.25rem;
+	height: 60px;
+}
+.menu a.nav-link {  
+	color: rgba(255,255,255,0.7);
+	font-size: 1.25rem;
+	padding: 1.25rem 0.625rem;
+	padding-right: 3rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu a.nav-link:first-child {
+  padding-left: 20px;
+}
+.menu a.nav-link:hover,
+.menu a.nav-link.active {
+  color: rgba(255,255,255,1);
+}
+.menu a.nav-link .material-icons {
+	vertical-align: middle;
+	margin-bottom: 0.25rem;
+}
+.menu .nav-chip {
+  padding: 0.9375rem 0 0.9375rem 1.25rem;
+  margin-right: 20px;
+}
+.menu .nav-chip--contact {
+	position:relative;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin-right: 0.3125rem;
+}
+.menu .nav-chip--text {
+    color: rgba(0,174,255,1);
+	font-size: 1.25rem;
+	text-transform: capitalize;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.25rem 0.625rem;
+	width: 200px;
+}
+.menu .nav-chip--lostpwd {
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+	text-shadow: none;
+}
+.menu .nav-chip--contact-img-bg {
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	top: -11px;
+	left: -18px;
+	height: 51px;
+	width: 51px;
+}
+.menu .nav-chip--contact-img-bg.img--class-icon {
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	top: calc(50% - 27px);
+	left: -27px;
+	height: 54px;
+	width: 54px;	
+}
+.menu .nav-chip--contact-img {
+	position: absolute;
+    overflow: hidden;
+	top: -8px;
+	left: -15px;
+	height: 45px;
+	width: 45px;
+}
+.menu .nav-chip--contact-img.img--class-icon,
+.menu .nav-chip--contact-img.img--class_deathnight,
+.menu .nav-chip--contact-img.img--class_demonhunter,
+.menu .nav-chip--contact-img.img--class_hunter,
+.menu .nav-chip--contact-img.img--class_mage,
+.menu .nav-chip--contact-img.img--class_monk,
+.menu .nav-chip--contact-img.img--class_paladin,
+.menu .nav-chip--contact-img.img--class_priest,
+.menu .nav-chip--contact-img.img--class_rogue,
+.menu .nav-chip--contact-img.img--class_shaman,
+.menu .nav-chip--contact-img.img--class_warlock,
+.menu .nav-chip--contact-img.img--class_warrior,
+.menu .nav-chip--contact-img.img--class_druid {
+	width: auto;
+	height: 90px;
+	top: calc(50% - 45px);
+	left:-45px;
+}
+.menu .nav-chip--contact-img.img--class-icon_c,
+.menu .nav-chip--contact-img.img--class_deathnight_c,
+.menu .nav-chip--contact-img.img--class_demonhunter_c,
+.menu .nav-chip--contact-img.img--class_hunter_c,
+.menu .nav-chip--contact-img.img--class_mage_c,
+.menu .nav-chip--contact-img.img--class_monk_c,
+.menu .nav-chip--contact-img.img--class_paladin_c,
+.menu .nav-chip--contact-img.img--class_priest_c,
+.menu .nav-chip--contact-img.img--class_rogue_c,
+.menu .nav-chip--contact-img.img--class_shaman_c,
+.menu .nav-chip--contact-img.img--class_warlock_c,
+.menu .nav-chip--contact-img.img--class_warrior_c {
+	width: auto;
+	height: 94px;
+	top: calc(50% - 51px);
+	left:-40px;
+}
+.menu .nav-chip--action {
+	position: absolute;
+    background-color: rgba(0,0,0,0.2);
+	border-radius: 15px;
+    color: rgba(0,0,0, 0.9);
+    border: none;
+    outline: none;
+	right: -1px;
+	top: -1px;
+	height: 30px;
+    width: 30px;
+	}
+.menu .nav-chip--action .material-icons {
+	vertical-align: middle;
+	margin: 0.1875rem;
+}
+.menu .nav-chip--link {
+	color: rgba(129,199,132,1);
+	margin-left: 2rem;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menu .nav-chip--link:visited {
+	color: rgba(129,199,132,1);
+}
+.menu .nav-chip--link:hover {
+	color: rgba(229,115,115,1);
+}
+.menuSub {
+	border-color: rgba(255,255,255,0.1);
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	background: rgba(255,255,255,0.1);
+	font-size: 1rem;
+	line-height: 1rem;
+	height: 40px;
+}
+.menuSub .nav-item {
+   border-right: 1px solid rgba(255,255,255,0.15);
+   padding: 0.625rem 1.25rem 0.75rem;
+   transition: background-color 0.3s ease-out;
+}
+.menuSub .nav-item:focus, 
+.menuSub .nav-item:hover {
+	background-color: rgba(0,0,0,.2);
+	transition: background-color 0.3s ease-out;
+}
+.menuSub a.dropdown-toggle,
+.menuSub a {
+	color: rgba(255,255,255,0.7);
+	font-weight: 400;
+	text-decoration: none;
+}
+.menuSub a.dropdown-toggle:hover,
+.menuSub a.dropdown-toggle:active,
+.menuSub a:hover,
+.menuSub a:active {
+	color: rgba(255,255,255,1);
+}
+.menuSub a.dropdown-toggle .material-icons {
+	vertical-align: middle;
+	margin-bottom: 0.25rem;
+}
+.dropdown-menu{
+	border: none;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 0;
+	padding: 0;
+    margin: 2px 0 0 0;
+}
+.dropdown-menu .dropdown-item {
+	background-color: transparent;
+	transition: background-color 0.2s ease-out;
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+	background-color: rgba(255,255,255,0.1);
+	transition: background-color 0.2s ease-out;
+}
+.dropdown-menu .dropdown-divider {
+	background-color: rgba(255,255,255,0.1);
+	margin: 0;
+}
+.dropdown-menu a.nav-link{
+	color: rgba(255,255,255,0.7);
+	font-size: 0.875rem;
+	padding: 0.25rem 1.25rem;
+	text-decoration: none;
+}
+.dropdown-menu a.nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+/* custom-menu-resp.css */
+.navbar {
+	flex-wrap: wrap;
+	justify-content:flex-start;
+}
+.navbar.navbar-resp {
+	  background-color : rgba(32,38,54,1);
+	  color: rgba(33,150,243,1);
+	  border-bottom: 1px solid rgba(255,255,255,.1);
+	  box-shadow: 0 0 0 1px rgba(0,0,0,1);
+	  height:50px;
+	  padding: 0.5rem 20px;
+}
+.navbar.navbar-resp a,
+.navbar.navbar-resp a:hover {
+	color: rgba(33,150,243,1);
+	cursor: pointer;
+	display: inline-flex;
+}
+.navbar.navbar-resp .nav-link {
+	padding: 0;
+	line-height: 1.875rem;
+}
+.navbar.navbar-resp .material-icons {
+	margin-top: 2px;
+}
+@media (max-width: 576px) {
+  .modal-resp-dialog{
+    max-width: 250px;
+  }
+}
+.modal-dialog.modal-resp-dialog {
+	height:100%;
+	min-height: 100%;
+	margin:0;
+}
+.modal.fade .modal-dialog.modal-resp-dialog {
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  -o-transition: -o-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease, -o-transform .3s ease;
+  -webkit-transform: translate(-25%, 0);
+      -ms-transform: translate(-25%, 0);
+       -o-transform: translate(-25%, 0);
+          transform: translate(-25%, 0);
+}
+.modal.show .modal-dialog.modal-resp-dialog {
+  -webkit-transform: translate(0, 1px);
+      -ms-transform: translate(0, 1px);
+       -o-transform: translate(0, 1px);
+          transform: translate(0, 1px);
+}
+.modal-content.modal-resp-content {
+	background-color: rgba(38,52,69,1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,1);
+	border-radius: 0;
+	min-height: 100%;
+	height: auto;
+}
+.modal-header.modal-resp-header {
+	background-color: rgba(32,38,54,1);
+	box-sizing: content-box;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	border-radius: 0;
+	color: rgba(255,255,255,.7);
+	text-align: center;
+	padding: 0.25rem 0.25rem;
+}
+.modal-resp-header h4 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.modal-resp-header .resp-btn-close {
+	color: rgba(255,255,255,1);
+	text-shadow: none;
+	margin-top: 0;
+}
+.modal-resp-body {
+	border-radius: 0;
+	padding: 0.5rem 0.5rem;
+	padding: 0 0 0.5rem 0;
+}
+.menuResp {
+	padding-top: 0.5rem;
+}
+.menuResp.nav-chip {
+  padding: 0.9375rem 0 0.9375rem 1.25rem;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.menuResp .nav-chip--contact {
+	position:relative;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin-right: 0.3125rem;
+}
+.menuResp .nav-chip--text {
+    color: rgba(0,174,255,1);
+	font-size: 1.25rem;
+	line-height: 1.25rem;
+	text-transform: capitalize;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.25rem 0.625rem;
+	width: 200px;
+}
+.menuResp .nav-chip--lostpwd {
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+}
+.menuResp .nav-chip--contact-img-bg {
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	top: -11px;
+	left: -18px;
+	height: 51px;
+	width: 51px;
+}
+.menuResp .nav-chip--contact-img-bg.img--class-icon {
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	top: calc(50% - 27px);
+	left: -27px;
+	height: 54px;
+	width: 54px;	
+}
+.menuResp .nav-chip--contact-img {
+	position: absolute;
+    overflow: hidden;
+	top: -8px;
+	left: -15px;
+	height: 45px;
+	width: 45px;
+}
+.menuResp .nav-chip--contact-img.img--class-icon,
+.menuResp .nav-chip--contact-img.img--class_deathnight,
+.menuResp .nav-chip--contact-img.img--class_demonhunter,
+.menuResp .nav-chip--contact-img.img--class_hunter,
+.menuResp .nav-chip--contact-img.img--class_mage,
+.menuResp .nav-chip--contact-img.img--class_monk,
+.menuResp .nav-chip--contact-img.img--class_paladin,
+.menuResp .nav-chip--contact-img.img--class_priest,
+.menuResp .nav-chip--contact-img.img--class_rogue,
+.menuResp .nav-chip--contact-img.img--class_shaman,
+.menuResp .nav-chip--contact-img.img--class_warlock,
+.menuResp .nav-chip--contact-img.img--class_warrior,
+.menuResp .nav-chip--contact-img.img--class_druid {
+	width: auto;
+	height: 90px;
+	top: calc(50% - 45px);
+	left:-45px;
+}
+.menuResp .nav-chip--contact-img.img--class-icon_c,
+.menuResp .nav-chip--contact-img.img--class_deathnight_c,
+.menuResp .nav-chip--contact-img.img--class_demonhunter_c,
+.menuResp .nav-chip--contact-img.img--class_hunter_c,
+.menuResp .nav-chip--contact-img.img--class_mage_c,
+.menuResp .nav-chip--contact-img.img--class_monk_c,
+.menuResp .nav-chip--contact-img.img--class_paladin_c,
+.menuResp .nav-chip--contact-img.img--class_priest_c,
+.menuResp .nav-chip--contact-img.img--class_rogue_c,
+.menuResp .nav-chip--contact-img.img--class_shaman_c,
+.menuResp .nav-chip--contact-img.img--class_warlock_c,
+.menuResp .nav-chip--contact-img.img--class_warrior_c {
+	width: auto;
+	height: 94px;
+	top: calc(50% - 51px);
+	left:-40px;
+}
+.menuResp .nav-chip--action {
+	position: absolute;
+    background-color: rgba(0,0,0,0.2);
+	border-radius: 15px;
+    color: rgba(0,0,0, 0.9);
+    border: none;
+    outline: none;
+	right: -1px;
+	top: -1px;
+	height: 30px;
+    width: 30px;
+	}
+.menuResp .nav-chip--action .material-icons {
+	vertical-align: middle;
+	margin: 0.1875rem;
+}
+.menuResp .nav-chip--link {
+	color: rgba(129,199,132,1);
+	margin-left: 2rem;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menuResp .nav-chip--link:visited {
+	color: rgba(129,199,132,1);
+}
+.menuResp .nav-chip--link:hover {
+	color: rgba(229,115,115,1);
+}
+.modal-resp-body .menuResp-divider.nav-chip-divider {
+	margin-top: 0;
+}
+.menuResp a.nav-link {  
+	color: rgba(255,255,255,0.7);
+	font-size: 1.25rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 0.25rem;
+}
+.menuResp a.nav-link:last-child {  
+	margin-left: 0.25rem;
+}
+.menuResp a.nav-link:hover,
+.menuResp a.nav-link.active {
+  color: rgba(255,255,255,1);
+}
+.menuResp a.nav-link .material-icons {
+	vertical-align: middle;
+	margin-left: 0.25rem;
+}
+.modal-resp-body .menuResp-divider {
+    background-color: rgba(255,255,255,0.1);
+    margin: 0.5rem 0;
+    padding: 0;
+	height: 1px;
+    width: 100%;
+}
+.menuSubResp .card {
+  background-color: transparent;
+  border: none;
+}
+.menuSubResp .card a.nav-item {
+	color: rgba(255,255,255,0.7);
+	font-size: 1.25rem;
+	text-decoration: none;
+	padding: 0 0.25rem;
+	margin-left: 0.25rem;
+}
+.menuSubResp .card a.nav-item:focus, 
+.menuSubResp .card a.nav-item:hover {
+	color: rgba(255,255,255,1);
+}
+.menuSubResp .card a.nav-item .material-icons {
+	vertical-align: middle;
+	margin-left: 0.25rem;
+}
+.menuSubResp .card a.nav-item .material-icons.md-expand {
+	margin-left: 0;
+}
+.menuSubResp .card a.nav-link {  
+	color: rgba(255,255,255,0.7);
+	font-size: 1rem;
+	text-decoration: none;
+	padding: 0 0.25rem;
+	margin-left: 3rem;
+}
+.menuSubResp .card a.nav-link:hover,
+.menuSubResp .card a.nav-link.active {
+	  color: rgba(255,255,255,1);
+}

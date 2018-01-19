@@ -1,0 +1,101 @@
+# phpRaider MySQL DUMP
+# 30/10/17 08:54am
+
+# TABLE: announcements
+INSERT INTO `phpraider_announcements` (`announcement_id`,`announcement_title`,`announcement_msg`,`announcement_timestamp`,`profile_id`) VALUES (35,2,99999999999999999999999999999999999999999999999999999999999999999,'2017-07-18 18:54:20',320);
+INSERT INTO `phpraider_announcements` (`announcement_id`,`announcement_title`,`announcement_msg`,`announcement_timestamp`,`profile_id`) VALUES (14,'Inscription et sï¿½lection des joueurs en Rai','Afin de participer aux Raids de la Guilde il est impï¿½ratif de s\'inscrire ici le plus tï¿½t possible! Cela facilitera la tache des Officiers. Nous n\'appliquons pas la politique du \"premier arrivï¿½, premier servi\" mais les inscrits de derniï¿½res minutes n\'auront pas la prioritï¿½.','2017-08-28 16:42:57',320);
+INSERT INTO `phpraider_announcements` (`announcement_id`,`announcement_title`,`announcement_msg`,`announcement_timestamp`,`profile_id`) VALUES (34,1,99999999999999999999999999999999999999999999999999999999999999999,'2017-07-18 18:54:43',320);
+INSERT INTO `phpraider_announcements` (`announcement_id`,`announcement_title`,`announcement_msg`,`announcement_timestamp`,`profile_id`) VALUES (36,3,'dsqfdsqfds','2017-08-28 16:39:26',320);
+
+# TABLE: attribute
+
+# TABLE: attribute_data
+
+# TABLE: character
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (1,55,9,0,1,0,3,100,'Farktus',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (2,54,4,0,2,1,5,90,'Blauk',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (4,54,1,0,2,1,6,85,'Vazelyn',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (5,54,7,0,1,1,3,90,'Sakoop',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (6,53,10,0,2,1,5,90,'Aphraëlle',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (73,345,7,0,2,1,2,100,'Ainoa',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (9,150,1,0,1,1,7,100,'Wagorn',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (21,198,10,0,2,1,6,90,'Yukea',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (12,85,5,0,1,1,3,100,'Okko le culé de prêtre !',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (14,115,5,0,1,1,5,90,'Nazzareth',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (39,129,3,0,1,1,5,100,'Asimagus',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (17,61,4,0,2,1,5,85,'Angeluxia',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (76,346,7,0,1,1,2,100,'Alpix',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (19,77,4,0,2,1,5,90,'Kerriganne',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (20,200,8,0,1,1,5,100,'Viortus',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (22,204,8,0,1,1,7,85,'Wakatatanka',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (24,121,1,0,2,1,6,100,'Olivoyl',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (25,61,7,0,1,1,2,90,'Antarion',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (68,329,8,0,1,1,4,100,'Kowlarc',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (28,122,7,0,2,1,2,90,'Pidoupidouwa',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (29,227,10,0,2,1,2,88,'Jaggette',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (30,258,9,0,2,1,2,90,'Damejade',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (31,204,3,0,2,1,5,90,'Elrîdys',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (32,117,10,0,1,1,5,90,'Cruchot',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (35,265,1,0,1,1,7,110,'Banedon',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (36,119,11,0,2,1,8,90,'Malah',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (37,272,3,0,1,1,8,90,'Haako',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (40,279,4,0,2,1,5,90,'Glørîa',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (41,285,7,0,2,1,2,90,'Valforia',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (42,295,2,0,1,1,3,90,'Urloff',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (43,294,9,0,1,1,6,90,'Dapion',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (44,298,9,0,2,1,5,100,'Snurg',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (45,204,2,0,2,0,6,90,'Brawn',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (46,307,5,0,1,1,5,90,'Elbion',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (47,316,3,0,2,1,5,110,'Cyçou',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (48,318,4,0,2,1,5,90,'Arkhania',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (49,321,4,0,1,1,5,100,'Bélerophon',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (50,320,9,0,2,1,6,110,'Kilàshandra',36,37,896);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (51,320,5,0,1,1,3,110,'Faldan',24,25,904);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (52,326,1,0,2,1,6,90,'Boumpaffe',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (53,332,9,0,1,1,5,100,'Cole',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (55,204,1,0,1,1,6,90,'Groot',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (56,316,4,0,2,1,5,110,'Pepsycola',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (57,334,2,0,1,1,3,90,'Urlofff',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (59,329,7,0,1,1,2,90,'Watsön',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (60,99,9,0,2,1,5,100,'Weasky',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (77,343,3,0,1,1,5,100,'Lüke',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (62,333,5,0,2,1,6,90,'Galadriela',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (63,329,2,0,1,1,5,100,'Diaval',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (64,307,10,0,1,1,5,100,'Elberoth',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (65,332,2,0,1,1,3,92,'Gromril',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (66,338,10,0,1,1,5,100,'Grimfandango',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (67,96,11,0,1,1,8,100,'Boubool',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (69,337,2,0,1,1,6,100,'Casoar',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (70,60,9,0,1,1,5,100,'Thorbjorn',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (71,343,6,0,1,1,7,100,'Djoumandjy',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (72,342,5,0,1,1,7,100,'Pwimo',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (74,204,6,0,2,1,6,100,'Gamblr',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (75,66,3,0,1,1,5,100,'Mnemoth',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (78,354,10,0,1,1,5,100,'Zott',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (79,204,8,0,2,1,4,100,'Rondouda',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (81,359,7,0,1,2,2,100,'kazê',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (82,360,3,0,1,1,5,100,'Clashpei',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (83,346,11,0,1,1,8,100,'Gizalpix',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (84,365,2,0,2,1,6,100,'Sapphyre',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (85,365,5,0,2,1,2,100,'Nephylim',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (86,365,9,0,2,1,2,100,'Lollipop',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (87,338,4,0,1,1,5,100,'Glottis',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (88,354,6,0,2,1,5,100,'Krot',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (90,368,4,0,1,3,3,100,'Kulgur',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (91,53,6,0,2,1,6,100,'Shawny',0,0,1);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (103,320,3,0,2,1,5,110,'Mnemanth',16,15,902);
+INSERT INTO `phpraider_character` (`character_id`,`profile_id`,`class_id`,`role_id`,`gender_id`,`guild_id`,`race_id`,`char_level`,`char_name`,`spe1_id`,`spe2_id`,`ilvl`) VALUES (0,320,10,0,1,1,8,2324,'TEST',2,2,234);
+
+# TABLE: class
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (1,'ff7c0a','Druide');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (2,'aad372','Chasseur');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (3,'68ccef','Mage');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (4,'f48cba','Paladin');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (5,'f0ebe0','Pretre');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (6,'fff468','Voleur');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (7,'2359ff','Chaman');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (8,'9382c9','Demoniste');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (9,'c69b6d','Guerrier');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (10,'c41e3b','Chevalier');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (11,'00ffba','Moine');
+INSERT INTO `phpraider_class` (`class_id`,`class_color`,`class_name`) VALUES (13,'a330c9','DemonHunter');

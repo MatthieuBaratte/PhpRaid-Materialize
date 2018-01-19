@@ -1,0 +1,399 @@
+.section--calendar {
+	background-color: transparent;
+	color: rgba(255,255,255,0.7);
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1rem;
+}
+.calendar--header {
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.15);
+	border-bottom-width: 0;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0.25rem;
+}
+.calendar--header .material-icons {
+	vertical-align: -6px;
+}
+.calendar--header .form-group {
+	margin-right: 0.25rem;
+}
+.calendar--footer {
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.15);
+	border-top-width: 0;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0.25rem;
+}
+.calendar--weekday {
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.15);
+	border-top-width: 0;	
+	border-bottom-width: 0;
+	padding-top: 0.25rem;
+}
+.calendar {
+ 		display:flex;
+ 		flex-wrap: wrap;
+ 		justify-content:flex-start;
+ 		align-content: space-around;
+		width: 100%;
+}
+.dayContainer {
+	display: table;
+	border: 1px solid rgba(255,255,255,0.15);
+	box-sizing: border-box;
+	border-collapse: collapse;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    width: calc(100%/7);
+    position: relative;	
+	box-shadow: rgba(0,0,0,1) 0px 0px 1px 0px inset;
+}
+.dayContainer.calendar--title {
+	border: none;
+	font-size: 0.9375rem;
+	font-weight: 500;
+	line-height: 1rem;
+	white-space: nowrap;
+	padding: 0.125rem;
+	box-shadow: none;
+}
+.dayContainer-resp.nomonthday,
+.dayContainer-resp.nomonthday {
+	background-color: rgba(0,0,0,0.45);
+}
+.dayContainer-resp.saturday,
+.dayContainer-resp.sunday,
+.dayContainer-resp.saturday,
+.dayContainer-resp.sunday {
+	background-color: rgba(0,0,0,0.3);
+}
+.dayContainer.today,
+.dayContainer.today
+.dayContainer-resp.today,
+.dayContainer-resp.today {
+	background-color: rgba(33,150,243,0.1);
+	outline: 1px solid rgba(33,150,243,0.7);
+}
+.dayContainer.monthday:hover,
+.dayContainer.saturday:hover,
+.dayContainer.sunday:hover,
+.dayContainer.today:hover,
+.dayContainer-resp.monthday:hover,
+.dayContainer-resp.saturday:hover,
+.dayContainer-resp.sunday:hover,
+.dayContainer-resp.today:hover {
+	background-color: rgba(66,66,66,0.3);
+	outline: 1px solid rgba(255,255,255,0.3);
+}
+.dayContainer.monthday,
+.dayContainer.saturday,
+.dayContainer.sunday,
+.dayContainer.today,
+.dayContainer.monthday:hover,
+.dayContainer.saturday:hover,
+.dayContainer.sunday:hover,
+.dayContainer.today:hover,
+.dayContainer-resp.monthday,
+.dayContainer-resp.saturday,
+.dayContainer-resp.sunday,
+.dayContainer-resp.today,
+.dayContainer-resp.monthday:hover,
+.dayContainer-resp.saturday:hover,
+.dayContainer-resp.sunday:hover,
+.dayContainer-resp.today:hover {
+ 	transition: background-color 0.3s ease-out;
+}
+.col-3.col-resp {
+	padding: 1px;
+}
+.col-9.col-resp {
+	padding: 1px 0;
+}
+.dayContainer-resp {
+	display: table;
+	border: 1px solid rgba(255,255,255,0.15);
+	box-sizing: border-box;
+	border-collapse: collapse;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    width: calc(100%/1);
+    position: relative;	
+	box-shadow: rgba(0,0,0,1) 0px 0px 1px 0px inset;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	.dayContainer-resp  {
+		width: calc(100%/2);
+	}
+}
+@media (min-width: 768px) {
+	.dayContainer-resp  {
+		width: calc(100%/2);
+	}
+}
+.day {
+    padding-bottom: 100%;
+}
+.raidContainer {
+	position: absolute;
+	padding: 1px;
+	height: 100%;
+	width: 100%;
+    top:0;
+	z-index: 50;
+}
+.raidContainer-resp {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.raidContainer .raid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.raidContainer-resp .raid-resp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	top:0;
+}
+.raid .raid--date,
+.raid-resp .raid--dateday {
+	padding-left: 0.25rem;
+	padding-top: 0.125rem;
+	position: absolute;
+	z-index: 200;
+}
+.raid .raid--img,
+.raid-resp .raid--img {
+	outline: 1px solid rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+}
+.raid .raid--img img,
+.raid-resp .raid--img img {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-out;
+}
+.raidContainer:hover .raid .raid--img img,
+.dayContainer-resp:hover .raid-resp .raid--img img {
+	opacity: 0.7;
+	transition: opacity 0.3s ease-out;
+}
+.raid .raid--info,
+.raid-resp .raid--info {
+	line-height: 1.125rem;
+	padding-top: 0.125rem;
+	top: 0;
+    right: 0;
+    position: absolute;
+	z-index:200;
+}
+.raid-resp .raid--info {
+	width: 100%;
+}
+.raid .raid--option,
+.raid-resp .raid--option {
+	background-color: rgba(0,0,0,0.4);
+	padding: 0.125rem 0;
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+	z-index:200;
+}
+.raid .div-right,
+.raid-resp .div-right  {
+	padding-right: 0.125rem;
+}
+.raid-resp .div-left  {
+	padding-left: 0.125rem;
+}
+
+
+/* HEEEEEERe */
+.raid .raid--option .btn,
+.raid-resp .raid--option .btn {
+	font-size: 0.875rem;
+}
+.raid .raid--info .btn,
+.raid-resp .raid--info .btn {
+	font-size: 1.125rem;
+}
+.raid .btn .material-icons,
+.raid-resp .btn .material-icons {
+	vertical-align: -2px;
+}
+.raid .btn.btn--table-info .material-icons,
+.raid-resp .btn.btn--table-info .material-icons {
+	vertical-align: -3px;
+}
+.raid .btn--raidSignup,
+.raid-resp .btn--raidSignup {
+	box-sizing: border-box;	
+	border-radius: 0.25rem;
+	line-height: 0.875rem;
+	padding: 0.1875rem;
+	margin-top: 0;
+}
+.raid .btn--table-edit,
+.raid-resp .btn--table-edit {
+	box-sizing: border-box;	
+	border-radius: 0.125rem;
+	line-height: 0.875rem;
+	padding: 0.1875rem;
+	margin-top: 0;
+}
+.raid .btn--table-info,
+.raid-resp .btn--table-info {
+	box-sizing: border-box;	
+	border-radius: 1.125rem;
+	line-height: 1.125rem;
+	padding: 0;
+}
+/* HEEEEEERe */
+
+
+/* -------------------------- */
+.navbar {
+	flex-wrap: wrap;
+	justify-content:flex-start;
+}
+.navbar.navbar-resp .nav-link {
+	padding: 0;
+	line-height: 1.875rem;
+}
+/* -------------------------- */
+.navbar.navbar-resp .material-icons {
+	vertical-align: -4px;
+}
+.btn--sectionHeader--action .material-icons,
+.icone--header .material-icons,
+.btn--raidSignup .material-icons,
+.btn--raidCharacter .material-icons,
+.btn--raidComment .material-icons,
+.btn--raidEdit .material-icons,
+.table-section thead th .material-icons,
+.btn---table-header .material-icons {
+	vertical-align: -2px;
+}
+.btn--table-edit .material-icons {
+	vertical-align: 0px;
+}
+#sectionPermissionsDetails .btn--table-info .material-icons {
+	vertical-align: -1px;
+}
+.menu .nav-chip--action .material-icons,
+.menuSub a.dropdown-toggle .material-icons,
+.navbar.navbar-resp .menuSub a.dropdown-toggle .material-icons,
+.menuResp .nav-chip--action .material-icons,
+.menuResp a.nav-link .material-icons,
+.menuSubResp .card a.nav-item .material-icons.md-expand {
+	vertical-align: -4px;
+}
+.menu a.nav-link .material-icons {
+	margin-top: 0;
+	vertical-align: -4px;
+}
+/* table */
+.table-section tbody td:first-child {
+	font-weight: 400;
+}
+/* form */
+.form-control:disabled, .form-control[readonly] {
+    background-color: rgba(0,0,0,0.5);
+}
+/* ==========================================================================
+   $BASE-DATE-PICKER
+   ========================================================================== */
+.picker__box {
+	background-color:rgba(32,38,54,1);
+	border-color: rgba(33,150,243,1);
+	border-radius: 0;
+}
+.picker__table {
+	font-size: 1rem;
+}
+.picker__month,
+.picker__year {
+  color: rgba(255,255,255,1);
+}
+.picker__nav--prev:before,
+.picker__nav--next:before {
+  border-right-color: rgba(33,150,243,0.7);
+}
+.picker__nav--next:before {
+  border-left-color: rgba(33,150,243,0.7);
+}
+.picker__nav--prev:hover:before,
+.picker__nav--next:hover:before {
+  border-right-color: rgba(33,150,243,1);
+}
+.picker__nav--next:hover:before {
+  border-left-color: rgba(33,150,243,1);
+}
+.picker__nav--prev:hover,
+.picker__nav--next:hover {
+  color: rgba(255,255,255,1);
+  background: transparent;
+}
+.picker__weekday {
+  color: rgba(255,255,255,0.7);
+}
+.picker__day {
+  margin: 1px;
+  border-color: rgba(255,255,255,0.1);
+}
+.picker__day--today:before {
+  border-top-color: rgba(33,150,243,1);
+  border-left-color: transparent;
+}
+.picker__day--disabled:before {
+  border-top-color: rgba(0,0,0,0.3);
+}
+.picker__day--outfocus {
+  color: rgba(255,255,255,0.3);
+}
+.picker__day--infocus {
+	color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0.1);
+}
+.picker__day--infocus:hover,
+.picker__day--outfocus:hover {
+  color: rgba(255,255,255,1);
+  background: rgba(33,150,243,0.3);
+}
+.picker__day--highlighted {
+  border-color: rgba(33,150,243,1);
+}
+.picker__day--highlighted:hover,
+.picker--focused .picker__day--highlighted {
+  color: rgba(255,255,255,1);
+  background: rgba(33,150,243,0.5);
+}
+.picker__day--selected,
+.picker__day--selected:hover,
+.picker--focused .picker__day--selected {
+  background: rgba(33,150,243,0.3);
+  color: rgba(255,255,255,1);
+}
+.picker__day--disabled,
+.picker__day--disabled:hover,
+.picker--focused .picker__day--disabled {
+  background: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #dddddd;
+  cursor: default;
+}
+.picker__day--highlighted.picker__day--disabled,
+.picker__day--highlighted.picker__day--disabled:hover {
+  background: #bbbbbb;
+}

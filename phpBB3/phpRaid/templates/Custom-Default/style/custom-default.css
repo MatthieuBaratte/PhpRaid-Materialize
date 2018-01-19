@@ -1,0 +1,62 @@
+/*
+* Default template
+* -------------------------------------
+* Custom theme
+*/
+/* common (custom-common.css) */
+body.theme--default {
+    background-image: url(../images/backgrounds/bg_default.jpg);
+    background-position: center -200px;
+    background-repeat: no-repeat;
+}
+/* menu (custom-menu.css) */
+.theme--default #menu-header {
+	background-image: url("../images/backgrounds/bg_default.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+.theme--default.glass-header #menu-header {
+    /*background-position: center bottom -40px;*/
+	background-position: center top -2px;
+    background-repeat: no-repeat;
+}
+.theme--default #menuSub-header {
+	background-image: url("../images/backgrounds/bg_default.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+}
+.theme--default.glass-header #menuSub-header {
+	background-position: center top -46px;
+    background-repeat: no-repeat
+}
+.theme--default .dropdown-menu{
+	background-image: url("../images/backgrounds/bg_default.jpg");
+}
+/* image (custom-img.css)*/
+.theme--default .div--banner {
+	background-image: url("../images/banners/b_default_grey.png");
+    background-position: center -300px;
+    background-repeat: no-repeat;
+}
+.theme--default .div--banner-resp {
+	background-image: url("../images/banners/b_default_grey-resp.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+/* datepicker (custom-jquery-ui.css) */
+.theme--default .ui-widget-content {
+	background-image: url("../images/backgrounds/bg_default.jpg");
+    background-position: center -200px;
+    background-repeat: no-repeat;
+}
+.theme--default .ui-widget-header .ui-icon {
+	/* Modify prev and next with google icon */
+	background-image: url("../images/icones/ui-icons_blue_normal.png");
+}
+.theme--default .ui-state-hover .ui-icon,
+.theme--default .ui-state-focus .ui-icon,
+.theme--default .ui-button:hover .ui-icon,
+.theme--default .ui-button:focus .ui-icon {
+	/* Modify prev and next with google icon */
+	background-image: url("../images/icones/ui-icons_blue_hover.png");
+}
